@@ -10,7 +10,7 @@ window.addEventListener("load", function(){
 	//人数を増やすボタン
 	document.getElementById("plus1").addEventListener("click", function(){
 		var n = document.getElementById("resNumber").valueAsNumber;
-		n = n + 1;
+		n++;
 		document.getElementById("resNumber").value = n;
 		//エラーチェック
 		var flag = document.getElementById("resNumber").checkValidity();
